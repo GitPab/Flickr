@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.search.SearchActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="20dp"
+            android:inputType="text"
+            android:text=""
+            tools:ignore="LabelFor,PxUsage,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+        <Button
+            android:id="@+id/search_button"
+            android:layout_toEndOf="@id/search_bar"
+            android:layout_alignBaseline="@id/search_bar"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            tools:ignore="PxUsage" />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/search_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/search_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>

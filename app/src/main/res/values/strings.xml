@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Flickr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- login activity-->
+    <string name="login_policy">By continuing, you agree to our Terms of Service and have read our Privacy Policy.</string>
+    <string name="character_requirement">12 or more characters</string>
+    <string name="space_requirement">No leading spaces</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_fname">First name</string>
+    <string name="prompt_lname">Last name</string>
+    <string name="prompt_dob">Date of birth</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="not_flickr_member">Not a Flickr member?</string>
+    <string name="already_flickr_member">Already a Flickr member?</string>
+    <string name="search">search</string>
+    <string name="learn_more">Learn More</string>
+    <string name="get_a_better_understanding_of_how_people_are_discovering_your_photos_with_flickr_pro">Get a better understanding of how people are discovering your photos with Flickr Pro.</string>
+    <string name="track_your_views">Track your views</string>
+    <string name="whenever_friends_follow_you_or_like_your_photos_you_ll_get_a_notification_here">Whenever friends follow you or like your photos, you\'ll get a notification here.</string>
+    <string name="welcome_to_flickr">Welcome to Flickr</string>
+    <string name="john_doe_s_photo">John Doe\'s Photo</string>
+    <string name="_4_images_3k_followers">4 images - 3K followers</string>
+    <string name="_7_images_4k_followers">7 images - 4K followers</string>
+    <string name="jacky">Jacky</string>
+    <string name="johnny_b">Johnny B</string>
+    <string name="follow">Follow</string>
+    <string name="jimmy" />
+    <string name="write_a_comment">Write a comment...</string>
+    <string name="chris_evan">Chris Evan</string>
+    <string name="looking_good">Looking good</string>
+    <string name="_1_month_reply">1 month - Reply</string>
+    <string name="always_looking_nice">Always looking nice</string>
+    <string name="always_have_been">Always have been</string>
+    <string name="post">Post</string>
+    <string name="upload_now">Upload now</string>
+    <string name="got_a_photos_we_ve_got_a_lot_to_share">Got a photos? We\'ve got a lot to share!</string>
+    <string name="upload_your_photos">Upload your photos!</string>
+    <string name="camera">Camera</string>
+    <string name="create_albums_fo_sharing_memories">Create albums fo sharing memories</string>
+    <string name="make_moments_meaningful">Make moments meaningful!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_an_flickr_user_login">Already an Flickr user? Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="loading">Loading...</string>
+    <string name="join">+ Join</string>
+    <string name="navia">Navia</string>
+    <string name="recommended">Recommended</string>
+    <string name="beautiful_scene">Beautiful Scene</string>
+    <string name="john_doe">John Doe</string>
+    <string name="marvelous">Marvelous!</string>
+    <string name="polo_mike_and_1975_others_favorite">Polo, Mike and 1975 others favorite</string>
+    <string name="_70">70</string>
+    <string name="_1977">1977</string>
+    <string name="_1000_of_1000">1000 of 1000</string>
+</resources>

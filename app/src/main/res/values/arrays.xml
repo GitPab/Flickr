@@ -1,0 +1,10 @@
+<resources>
+    <!-- Safe and security Preference -->
+    <string-array name="Safe">
+        <item>Safe</item>
+    </string-array>
+
+    <string-array name="Security">
+        <item>Security</item>
+    </string-array>
+</resources>

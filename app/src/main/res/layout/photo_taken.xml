@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="137dp"
+        android:importantForAccessibility="no" />
+
+    <EditText
+        android:id="@+id/post_text"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:drawableEnd="@drawable/ic_baseline_send_24"
+        android:drawablePadding="10dp"
+        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/post"
+        android:text="Post"
+        android:layout_below="@+id/post_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

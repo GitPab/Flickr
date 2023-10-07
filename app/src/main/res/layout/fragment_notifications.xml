@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/welcome_to_flickr"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="10dp"
+        android:text="@string/whenever_friends_follow_you_or_like_your_photos_you_ll_get_a_notification_here"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/ic_baseline_notifications_24"
+        android:backgroundTint="@color/lavender"
+        android:importantForAccessibility="no"
+        tools:ignore="ImageContrastCheck" />
+
+
+
+</RelativeLayout>
